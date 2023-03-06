@@ -1,0 +1,36 @@
+.tableContainer table{
+    left: 10vw;
+    position: absolute;
+    top: 15vh;
+    text-align: center;
+    width: 80%;
+}
+
+/* TODO: hiding the table header is a hack for sure :3 */
+.tableContainer th{
+    visibility: hidden;
+}
+
+.tableContainer tr{
+    height: 40px;
+}
+
+.tableContainer td:first-child{
+    background-color: pink;
+    border-bottom: solid;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: bold;
+    height: 40%;
+    padding: 0px 10;
+    width: 15%;
+}
+
+.tableContainer td:last-child{
+    text-align: left;
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}

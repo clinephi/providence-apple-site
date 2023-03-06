@@ -1,0 +1,7 @@
+# Cider
+
+Alcoholic cider, also known as “hard cider” in North America, is a common alcoholic beverage traditionally consumed around the world. Today, several styles of cider exist, produced by both large cidermakers and smaller craft producers. As consumer demand continues to evolve with emerging trends, cideries are constantly looking to develop new, unique products. There has been significant movement toward rosé cider in the Canada and the United States due to its aesthetics and novelty in the craft cider industry. This type of cider is known for its characteristic pink color, similar to that of rosé wine. Large commercial cidermakes such as Angry Orchard, MillerCoors, Strongbow, and Bold Rock have begun capitalizing on the trend by introducing their own lines of rosé ciders to the market. These cideries are working with juice from red-fleshed apples and other natural  coloring agents derived from cranberries, cherries, pomegranate and strawberries to develop the highly sought-after pink color. Providence is a new, red-fleshed apple with excellent attributes for the cider industry. It produces a crimson red juice, has high polyphenols (tannins) that provide that unique mouth-feel associated with red wine, and has high acidity that is balanced with high sugars to provide a very unique fermented cider. 
+
+# Jelly
+
+Providence produces a crimson red juice that is transformed into a  refreshing tangy taste with well-balanced sweetness. High in antioxidants, the jelly goes well as a spread on crackers, with cheese, and toasted bread.	 

@@ -1,0 +1,88 @@
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+
+import '../styles/BackgroundSlider.css';
+
+import imageSlide from '../data';
+
+const Title = styled.div`
+    left: 12vw;
+    top: 8vh;
+    position: absolute;
+`
+
+const Header = styled.div`
+    background-color: #870d0dae;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-family: Capriola;
+    font-size: 80px;
+    padding: 5px 5px 0px 5px;   
+`
+
+const SubHeader = styled.div`
+    background-color: #870d0dae;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-family: Capriola;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 20vw;
+`
+    
+const BackgroundSlider = () => {
+    const [currentState, setCurrentState] = useState(0)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if(currentState === 2) setCurrentState(0)
+            else setCurrentState(currentState+1)
+            return () => clearTimeout(timer)
+        }, 10*1000)
+    }, [currentState])
+    const bgImageStyle = {
+        backgroundImage: `url(${imageSlide[currentState].url})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        height: '100%'
+    }
+    const goToNext = (currentState: number) => {
+        setCurrentState(currentState)
+    }
+    return (
+        <div className='container-style'>
+            <Title>
+                <Header>The Providence Apple</Header>
+                <SubHeader>A newer, redder option </SubHeader>
+            </Title>
+            <div style={bgImageStyle}> </div>
+            <div className='description' >
+                <div>
+                    <h1>{imageSlide[currentState].title}</h1>
+                    <p>{imageSlide[currentState].body}</p>
+                </div>
+                <div className='carousel-boullt'>
+                    {
+                        imageSlide.map((imageSlide, order) => {
+                            const spanStyle = order === currentState ? 'rgba(224, 74, 87, 1)' : 'rgb(159, 158, 158)'
+                            return (
+                                <span 
+                                    key={order}
+                                    // TODO: sort out issues with the onClick
+                                    // onClick={() => goToNext(order)}
+                                    style={{backgroundColor: spanStyle}}
+                                ></span>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default BackgroundSlider
