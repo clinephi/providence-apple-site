@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/providence-apple-site/static/css/main.2a2a711f.css",
+    "main.js": "/providence-apple-site/static/js/main.07737cf2.js",
+    "static/js/787.9b82d285.chunk.js": "/providence-apple-site/static/js/787.9b82d285.chunk.js",
+    "static/media/Pomology-Logo.gif": "/providence-apple-site/static/media/Pomology-Logo.a1dd01bcf329e2c844d5.gif",
+    "static/media/cultivation.en.md": "/providence-apple-site/static/media/cultivation.en.4dbb90ca662253601163.md",
+    "static/media/products.en.md": "/providence-apple-site/static/media/products.en.5f121c77c6ffb3da39da.md",
+    "static/media/about.en.md": "/providence-apple-site/static/media/about.en.ebf90a9e0484a12af036.md",
+    "static/media/nutrition.en.md": "/providence-apple-site/static/media/nutrition.en.ee10ac64996cdb08a9f4.md",
+    "index.html": "/providence-apple-site/index.html",
+    "static/media/tree-availability.en.md": "/providence-apple-site/static/media/tree-availability.en.bafa775fb853887ff3ba.md",
+    "main.2a2a711f.css.map": "/providence-apple-site/static/css/main.2a2a711f.css.map",
+    "main.07737cf2.js.map": "/providence-apple-site/static/js/main.07737cf2.js.map",
+    "787.9b82d285.chunk.js.map": "/providence-apple-site/static/js/787.9b82d285.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a2a711f.css",
+    "static/js/main.07737cf2.js"
+  ]
+}
