@@ -4,6 +4,7 @@ import RemarkableReactRenderer from 'remarkable-react';
 import styled from 'styled-components'
 
 import '../styles/About.css';
+import backgroundImage from '../img/AboutPagePhotos/DSC_9513.jpg'
 
 import aboutContent from './text/about.en.md'
 
@@ -47,7 +48,7 @@ export const About = () => {
 
     return (
       <Background
-        backgroundImageLink="HomePagePhotos/DSC_9513.JPG"
+        backgroundImageLink={backgroundImage}
         >
         <TextBox className="textBox">
           <h1 

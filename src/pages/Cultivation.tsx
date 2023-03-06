@@ -4,6 +4,7 @@ import RemarkableReactRenderer from 'remarkable-react';
 import styled from 'styled-components'
 
 import '../styles/Cultivation.css';
+import cultivationBackgroundImage from '../img/CultivationPagePhotos/orchard-background.jpg'
 import { Background } from "./About";
 
 import cultivationContent from './text/cultivation.en.md'
@@ -41,7 +42,7 @@ export const Cultivation = () => {
 
     return (
       <Background
-        backgroundImageLink="CultivationPagePhotos/orchard-background.JPG"
+        backgroundImageLink={cultivationBackgroundImage}
       >
         <TableTitle>
           Providence Tree Characteristics

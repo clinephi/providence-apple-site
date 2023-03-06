@@ -7,6 +7,8 @@ import styled from "styled-components";
 import { Background } from "./About";
 import { TextBox } from "./About";
 
+import productBackground from '../img/ProductPagePhotos/DSC_0096.jpg'
+import cider from '../img/ProductPagePhotos/DSC_0581.jpg'
 import productContent from './text/products.en.md'
 
 var md = new Remarkable();
@@ -41,14 +43,14 @@ export const Products = () => {
 
     return (
     <Background
-        backgroundImageLink="ProductPagePhotos/DSC_0096.JPG">
+        backgroundImageLink={productBackground}>
         <TextBox style={{
             borderStyle: 'solid',
             borderColor: 'white'
         }}>
         {md.render(content)}
         </TextBox>
-        <Image alt="provide apple cider" src="ProductPagePhotos/DSC_0581.JPG"/>
+        <Image alt="provide apple cider" src={cider}/>
     </Background>
     )
   }

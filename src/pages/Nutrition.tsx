@@ -4,6 +4,7 @@ import RemarkableReactRenderer from 'remarkable-react';
 
 import { Background } from "./About";
 import { TextBox } from "./About";
+import NutritionImage from '../img/NutritionPagePhotos/DSC_6226.jpg'
 
 import nutritionContent from './text/nutrition.en.md'
 
@@ -26,7 +27,7 @@ export const Nutrition = () => {
 
     return (
     <Background
-        backgroundImageLink="NutritionPagePhotos/DSC_6226.JPG">
+        backgroundImageLink={NutritionImage}>
         <TextBox>
         {md.render(nutritionText)}
         </TextBox>

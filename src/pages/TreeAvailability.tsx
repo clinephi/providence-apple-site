@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import { Background } from "./About";
 import { TextBox } from "./About";
 
+import treeAvailabilityBackground from '../img/TreeAvailabilityPhotos/young-trees.jpg'
 import treeAvailabilityContent from './text/tree-availability.en.md'
 
 var md = new Remarkable();
@@ -27,7 +28,7 @@ export const TreeAvailability = () => {
 
     return (
     <Background
-        backgroundImageLink="TreeAvailabilityPhotos/young-trees.JPG">
+        backgroundImageLink={treeAvailabilityBackground}>
         <TextBox style={{
             borderStyle: 'solid',
             borderColor: '#870d0dae'
