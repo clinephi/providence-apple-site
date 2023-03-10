@@ -47,6 +47,16 @@ export const NavMenu = styled.div`
   font-weight: bold;
   /* text-transform: uppercase; */
 
+  a:not(:last-child)::after{
+    content:""; 
+    border:1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position:relative; 
+    right:-15px; 
+    top:0; 
+    height:50%;
+  }
+
   @media screen and (max-widht: 768px) {
     display: none;
   }
