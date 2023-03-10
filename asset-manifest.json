@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a2a711f.css",
-    "main.js": "/static/js/main.34625b2e.js",
+    "main.css": "/static/css/main.28f64470.css",
+    "main.js": "/static/js/main.2caba944.js",
     "static/js/787.9b82d285.chunk.js": "/static/js/787.9b82d285.chunk.js",
     "static/media/DSC_6226.jpg": "/static/media/DSC_6226.c838504e845d5b66391a.jpg",
     "static/media/DSC_9513.jpg": "/static/media/DSC_9513.e022f5d2e91197b2a8a5.jpg",
@@ -15,18 +15,20 @@
     "static/media/DSC_0063.jpg": "/static/media/DSC_0063.0766227ee2745be9606c.jpg",
     "static/media/DSC_0096.jpg": "/static/media/DSC_0096.e67b09c1314515cc7c0c.jpg",
     "static/media/Pomology-Logo.gif": "/static/media/Pomology-Logo.a1dd01bcf329e2c844d5.gif",
+    "static/media/jellies.jpg": "/static/media/jellies.94afb07ddd432b16c89b.jpg",
     "static/media/cultivation.en.md": "/static/media/cultivation.en.4dbb90ca662253601163.md",
     "static/media/products.en.md": "/static/media/products.en.5f121c77c6ffb3da39da.md",
     "static/media/about.en.md": "/static/media/about.en.ebf90a9e0484a12af036.md",
     "static/media/nutrition.en.md": "/static/media/nutrition.en.ee10ac64996cdb08a9f4.md",
     "static/media/tree-availability.en.md": "/static/media/tree-availability.en.bafa775fb853887ff3ba.md",
     "index.html": "/index.html",
-    "main.2a2a711f.css.map": "/static/css/main.2a2a711f.css.map",
-    "main.34625b2e.js.map": "/static/js/main.34625b2e.js.map",
+    "static/media/further-info.en.md": "/static/media/further-info.en.7f24b602413ea7055207.md",
+    "main.28f64470.css.map": "/static/css/main.28f64470.css.map",
+    "main.2caba944.js.map": "/static/js/main.2caba944.js.map",
     "787.9b82d285.chunk.js.map": "/static/js/787.9b82d285.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a2a711f.css",
-    "static/js/main.34625b2e.js"
+    "static/css/main.28f64470.css",
+    "static/js/main.2caba944.js"
   ]
 }
