@@ -13,7 +13,7 @@ const NavBar = (props: Props) => {
     return ( 
       <>
         <Nav>
-            <NavLink to="/">
+            <NavLink to="https://www.plant.uoguelph.ca/treefruit">
               <img
                 src={require('../../img/Pomology-Logo.gif')}
                 alt='logo'
@@ -22,6 +22,10 @@ const NavBar = (props: Props) => {
             </NavLink>
             <Bars />
             <NavMenu>
+                <NavLink
+                  to="/">
+                  Home
+                </NavLink>
                 <NavLink
                   to="/about"
                   style={({isActive}) => (isActive ? activeNavLinkStyle : {})}>
@@ -45,6 +49,11 @@ const NavBar = (props: Props) => {
                   to="/nutrition"
                   >
                   Nutrition
+                </NavLink>
+                <NavLink
+                  to="/further-information"
+                  >
+                  Further information
                 </NavLink>
             </NavMenu>
         </Nav>

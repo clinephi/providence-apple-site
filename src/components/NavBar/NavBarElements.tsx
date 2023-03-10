@@ -45,7 +45,7 @@ export const NavMenu = styled.div`
   width: 100vh; //3rd nav style
   white-space: nowrap; //3rd nav style
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 
   @media screen and (max-widht: 768px) {
     display: none;

@@ -32,7 +32,7 @@ const SubHeader = styled.div`
     padding-left: 15px;
     padding-bottom: 5px;
     text-align: left;
-    width: 20vw;
+    width: 40vw;
 `
     
 const BackgroundSlider = () => {
@@ -57,7 +57,7 @@ const BackgroundSlider = () => {
         <div className='container-style'>
             <Title>
                 <Header>The Providence Apple</Header>
-                <SubHeader>A newer, redder option </SubHeader>
+                <SubHeader>A red-fleshed apple for the cider, specialty juices and jellies, and food processing industries</SubHeader>
             </Title>
             <div style={bgImageStyle}> </div>
             <div className='description' >

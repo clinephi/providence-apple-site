@@ -9,6 +9,7 @@ import { TextBox } from "./About";
 
 import productBackground from '../img/ProductPagePhotos/DSC_0096.jpg'
 import cider from '../img/ProductPagePhotos/DSC_0581.jpg'
+import jellyPhoto from '../img/ProductPagePhotos/jellies.jpg'
 import productContent from './text/products.en.md'
 
 var md = new Remarkable();
@@ -19,9 +20,10 @@ const Image = styled.img`
   border-color: white;
   border-style: solid;
   height: auto;
-  left: 50vw;
-  position: absolute;
-  top: 30vh;
+  left: 20vw;
+  margin: 20px;
+  position: relative;
+  top: 20vh;
   max-height: 60vh;
   max-width: 40vw;
   width: auto;
@@ -50,7 +52,8 @@ export const Products = () => {
         }}>
         {md.render(content)}
         </TextBox>
-        <Image alt="provide apple cider" src={cider}/>
+        <Image alt="providence apple cider" src={cider}/>
+        <Image alt="providence apple jelly" src={jellyPhoto}/>
     </Background>
     )
   }

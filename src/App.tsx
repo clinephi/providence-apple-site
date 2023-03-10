@@ -14,6 +14,7 @@ import { About } from './pages/About';
 import { Cultivation } from './pages/Cultivation';
 import { Nutrition } from './pages/Nutrition';
 import { TreeAvailability } from './pages/TreeAvailability';
+import { FurtherInfo } from './pages/FurtherInfo'
 import { Products } from './pages/Products';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/nutrition" element={<Nutrition />} />
           <Route path="/tree-availability" element={<TreeAvailability />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/further-information" element={<FurtherInfo />} />
         </Routes>
       </div>
     </Router>

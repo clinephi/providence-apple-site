@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Remarkable } from 'remarkable'
 import RemarkableReactRenderer from 'remarkable-react';
-import styled from 'styled-components'
 
 import { Background } from "./About";
 import { TextBox } from "./About";
