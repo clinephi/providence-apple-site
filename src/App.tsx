@@ -19,7 +19,7 @@ import { Products } from './pages/Products';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div className="App">
         <NavBar style={{width: '100%vw'}}/>
         <Routes>
