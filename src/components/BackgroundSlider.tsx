@@ -6,20 +6,37 @@ import '../styles/BackgroundSlider.css';
 import imageSlide from '../data';
 
 const Title = styled.div`
-    left: 12vw;
+    left: 5vw;
     top: 8vh;
     position: absolute;
+
+    @media screen and (max-width: 500px) {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 `
 
 const Header = styled.div`
     background-color: #870d0dae;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     color: white;
     font-family: Capriola;
-    font-size: 80px;
-    padding: 5px 5px 0px 5px;   
+    font-size: 40px;
+    min-width: 380px; // Point at which text is multi lined.
+    padding: 5px 5px 0px 10px;
+    text-align: left;
+    width: 40vw; 
+
+    /* Adjust rules for mobile */
+    @media screen and (max-width: 500px) {
+        font-size: 30px;
+        margin: auto;
+        min-width: 300px; // Point at which text is multi lined.
+        text-align: center;
+    }
+
 `
 
 const SubHeader = styled.div`
@@ -29,10 +46,15 @@ const SubHeader = styled.div`
     color: white;
     font-family: Capriola;
     font-size: 20px;
-    padding-left: 15px;
-    padding-bottom: 5px;
+    min-width: 380px; 
+    padding: 5px 5px 5px 10px;
     text-align: left;
     width: 40vw;
+    
+    @media screen and (max-width: 500px) {
+        min-width: 300px; // Point at which text is multi lined.
+        text-align: center;
+    }
 `
     
 const BackgroundSlider = () => {
@@ -57,7 +79,7 @@ const BackgroundSlider = () => {
         <div className='container-style'>
             <Title>
                 <Header>The Providence Apple</Header>
-                <SubHeader>A red-fleshed apple for the cider, specialty juices and jellies, and food processing industries</SubHeader>
+                <SubHeader>A red-fleshed apple for the cider, specialty juices, jellies, and food processing industries</SubHeader>
             </Title>
             <div style={bgImageStyle}> </div>
             <div className='description' >
