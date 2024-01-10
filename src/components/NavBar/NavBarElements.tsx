@@ -26,7 +26,7 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: block; 
     position: absolute;
     top: 0;
@@ -40,7 +40,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  /* margin-right: -24px; 1st nav style */ 
+  margin-right: -24px; // 1st nav style 
   /* margin-right: 24px; // 2nd nav style */
   width: 100vh; //3rd nav style
   white-space: nowrap; //3rd nav style
@@ -57,7 +57,8 @@ export const NavMenu = styled.div`
     height:50%;
   }
 
-  @media screen and (max-widht: 768px) {
+  /* Make the navbar items disappear if they are shrunk too much */
+  @media screen and (max-width: 900px) {
     display: none;
   }
 `
