@@ -20,7 +20,11 @@ export const Background = styled.div<BackgroundProps>`
   background-image: url(${props => props.backgroundImageLink});
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 115vh;
+
+  @media screen and (max-width: 500px) {
+    height: 250vh;
+  }
 `
 
 export const TextBox = styled.div`
