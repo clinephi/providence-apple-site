@@ -6,10 +6,12 @@ const activeNavLinkStyle = {
 }
 
 type Props = {
-  style: React.CSSProperties
+  style: React.CSSProperties,
+  toggle: () => void
 }
 
 const NavBar = (props: Props) => {
+    const {toggle} = props
     return ( 
       <>
         <Nav>
@@ -20,7 +22,7 @@ const NavBar = (props: Props) => {
                 height={100}
                 width={140}/>
             </NavLink>
-            <Bars />
+            <Bars onClick={toggle}/>
             <NavMenu>
                 <NavLink
                   to="/">

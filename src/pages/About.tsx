@@ -19,8 +19,8 @@ interface BackgroundProps {
 export const Background = styled.div<BackgroundProps>`
   background-image: url(${props => props.backgroundImageLink});
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
+  background-size: cover;
+  height: 120vh;
 `
 
 export const TextBox = styled.div`
@@ -33,6 +33,13 @@ export const TextBox = styled.div`
   padding: 20px;
   position: absolute;
   width: 40vw;
+
+  @media screen and (max-width: 500px) {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80vw;
+
+  }
 `
 
 export const About = () => {

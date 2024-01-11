@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactGA from "react-ga4";
 
 import './styles/App.css';
@@ -8,6 +8,7 @@ import underConstruction from './img/under-construction.jpg'
 
 import BackgroundSlider from './components/BackgroundSlider';
 import NavBar from './components/NavBar';
+import SideBar from './components/SideBar';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Home } from './pages';
@@ -24,10 +25,15 @@ import { Products } from './pages/Products';
 ReactGA.initialize("G-538DQYHYTK")
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => setIsOpen(!isOpen)
+
   return (
     <Router basename='/'>
       <div className="App">
-        <NavBar style={{width: '100%vw'}}/>
+        <SideBar isOpen={isOpen} toggle={toggle}/>
+        <NavBar style={{width: '100%vw'}} toggle={toggle}/>
         <Routes>
           <Route path="/" element={<BackgroundSlider />} />
           <Route path="/about" element={<About />} />
