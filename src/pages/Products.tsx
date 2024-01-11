@@ -27,6 +27,11 @@ const Image = styled.img`
   max-height: 60vh;
   max-width: 40vw;
   width: auto;
+
+  @media screen and (max-width: 1300px) {
+      display: none
+  }
+
 `
 
 //TODO: extract all of this behaviour to shared class or something?

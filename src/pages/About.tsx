@@ -38,7 +38,6 @@ export const TextBox = styled.div`
       left: 50%;
       transform: translateX(-50%);
       width: 80vw;
-
   }
 `
 
